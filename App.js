@@ -14,10 +14,13 @@ import UseEffectPrac from './resource/resource/useEffect/UseEffectPractice';
 import UseState from './resource/resource/useState/UseState';
 import UseStatePractice from './resource/resource/useState/UseStatePractice';
 import UseStateuseEffect from './resource/resource/useState/UseStatePractice2';
+import CountryCode from './resource/resource/CountryCode/CountryCode';
+
 const App = () => {
   return (
     <View style={{justifyContent: 'center', alignItems: 'center'}}>
-      <ClassComponentPractice />
+      <CountryCode/>
+      {/* <ClassComponentPractice /> */}
       {/* <Flex/> */}
       {/* <FunctionPractice/> */}
       {/* <ProfilePractice/> */}
